@@ -32,17 +32,19 @@ export FLASK_APP=serve.py; flask run
 
 All of the database will be stored inside the `data` directory. Finally, if you'd like to run your own instance on the interwebs I recommend simply running the above on a [Linode](https://www.linode.com), e.g. I am running this code currently on the smallest "Nanode 1 GB" instance indexing about 30K papers, which costs $5/month.
 
-Finally, if you'd like to send periodic emails to users about new papers, see the `send_emails.py` script. I run this script in a daily cron job.
+(Optional) Finally, if you'd like to send periodic emails to users about new papers, see the `send_emails.py` script. You'll also have to `pip install sendgrid`. I run this script in a daily cron job.
 
 #### Requirements
-Install requirements:
-```bash
-pip install -r requirements.txt
-```
 
-#### todos
+ Install via requirements:
 
-- I need a proper requirements.txt and such
+ ```bash
+ pip install -r requirements.txt
+ ```
+
+#### Todos
+
+- Make website mobile friendly with media queries in css etc
 - The metas table should not be a sqlitedict but a proper sqlite table, for efficiency
 - Build a reverse index to support faster search, right now we iterate through the entire database
 

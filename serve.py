@@ -26,7 +26,7 @@ from aslite.db import load_features
 # -----------------------------------------------------------------------------
 # inits and globals
 
-RET_NUM = 100 # number of papers to return per page
+RET_NUM = 25 # number of papers to return per page
 
 app = Flask(__name__)
 
@@ -114,11 +114,12 @@ def time_rank():
     scores = [(tnow - v['_time'])/60/60/24 for k, v in ms] # time delta in days
     return pids, scores
 
-def svm_rank(tags: str = '', pid: str = ''):
+def svm_rank(tags: str = '', pid: str = '', C: float = 0.01):
 
     # tag can be one tag or a few comma-separated tags or 'all' for all tags we have in db
     # pid can be a specific paper id to set as positive for a kind of nearest neighbor search
-    assert tags or pid
+    if not (tags or pid):
+        return [], [], []
 
     # load all of the features
     features = load_features()
@@ -142,17 +143,28 @@ def svm_rank(tags: str = '', pid: str = ''):
                     y[ptoi[pid]] = 1.0
 
     if y.sum() == 0:
-        return [], [] # there are no positives?
+        return [], [], [] # there are no positives?
 
     # classify
-    clf = svm.LinearSVC(class_weight='balanced', verbose=False, max_iter=10000, tol=1e-6, C=0.1)
+    clf = svm.LinearSVC(class_weight='balanced', verbose=False, max_iter=10000, tol=1e-6, C=C)
     clf.fit(x, y)
     s = clf.decision_function(x)
     sortix = np.argsort(-s)
     pids = [itop[ix] for ix in sortix]
     scores = [100*float(s[ix]) for ix in sortix]
 
-    return pids, scores
+    # get the words that score most positively and most negatively for the svm
+    ivocab = {v:k for k,v in features['vocab'].items()} # index to word mapping
+    weights = clf.coef_[0] # (n_features,) weights of the trained svm
+    sortix = np.argsort(-weights)
+    words = []
+    for ix in list(sortix[:40]) + list(sortix[-20:]):
+        words.append({
+            'word': ivocab[ix],
+            'weight': weights[ix],
+        })
+
+    return pids, scores, words
 
 def search_rank(q: str = ''):
     if not q:
@@ -188,26 +200,41 @@ def default_context():
 @app.route('/', methods=['GET'])
 def main():
 
-    # GET options and their defaults
-    opt_rank = request.args.get('rank', 'time') # rank type. search|tags|pid|time|random
+    # default settings
+    default_rank = 'time'
+    default_tags = ''
+    default_time_filter = ''
+    default_skip_have = 'no'
+
+    # override variables with any provided options via the interface
+    opt_rank = request.args.get('rank', default_rank) # rank type. search|tags|pid|time|random
     opt_q = request.args.get('q', '') # search request in the text box
-    opt_tags = request.args.get('tags', '')  # tags to rank by if opt_rank == 'tag'
+    opt_tags = request.args.get('tags', default_tags)  # tags to rank by if opt_rank == 'tag'
     opt_pid = request.args.get('pid', '')  # pid to find nearest neighbors to
-    opt_time_filter = request.args.get('time_filter', '') # number of days to filter by
-    opt_skip_have = request.args.get('skip_have', 'no') # hide papers we already have?
+    opt_time_filter = request.args.get('time_filter', default_time_filter) # number of days to filter by
+    opt_skip_have = request.args.get('skip_have', default_skip_have) # hide papers we already have?
+    opt_svm_c = request.args.get('svm_c', '') # svm C parameter
+    opt_page_number = request.args.get('page_number', '1') # page number for pagination
 
     # if a query is given, override rank to be of type "search"
     # this allows the user to simply hit ENTER in the search field and have the correct thing happen
     if opt_q:
         opt_rank = 'search'
 
+    # try to parse opt_svm_c into something sensible (a float)
+    try:
+        C = float(opt_svm_c)
+    except ValueError:
+        C = 0.01 # sensible default, i think
+
     # rank papers: by tags, by time, by random
+    words = [] # only populated in the case of svm rank
     if opt_rank == 'search':
         pids, scores = search_rank(q=opt_q)
     elif opt_rank == 'tags':
-        pids, scores = svm_rank(tags=opt_tags)
+        pids, scores, words = svm_rank(tags=opt_tags, C=C)
     elif opt_rank == 'pid':
-        pids, scores = svm_rank(pid=opt_pid)
+        pids, scores, words = svm_rank(pid=opt_pid, C=C)
     elif opt_rank == 'time':
         pids, scores = time_rank()
     elif opt_rank == 'random':
@@ -231,12 +258,19 @@ def main():
         keep = [i for i,pid in enumerate(pids) if pid not in have]
         pids, scores = [pids[i] for i in keep], [scores[i] for i in keep]
 
-    # crop the results
-    pids = pids[:min(len(pids), RET_NUM)]
+    # crop the number of results to RET_NUM, and paginate
+    try:
+        page_number = max(1, int(opt_page_number))
+    except ValueError:
+        page_number = 1
+    start_index = (page_number - 1) * RET_NUM # desired starting index
+    end_index = min(start_index + RET_NUM, len(pids)) # desired ending index
+    pids = pids[start_index:end_index]
+    scores = scores[start_index:end_index]
 
     # render all papers to just the information we need for the UI
     papers = [render_pid(pid) for pid in pids]
-    for i, p  in enumerate(papers):
+    for i, p in enumerate(papers):
         p['weight'] = float(scores[i])
 
     # build the current tags for the user, and append the special 'all' tag
@@ -249,6 +283,8 @@ def main():
     context = default_context()
     context['papers'] = papers
     context['tags'] = rtags
+    context['words'] = words
+    context['words_desc'] = "Here are the top 40 most positive and bottom 20 most negative weights of the SVM. If they don't look great then try tuning the regularization strength hyperparameter of the SVM, svm_c, above. Lower C is higher regularization."
     context['gvars'] = {}
     context['gvars']['rank'] = opt_rank
     context['gvars']['tags'] = opt_tags
@@ -256,6 +292,8 @@ def main():
     context['gvars']['time_filter'] = opt_time_filter
     context['gvars']['skip_have'] = opt_skip_have
     context['gvars']['search_query'] = opt_q
+    context['gvars']['svm_c'] = str(C)
+    context['gvars']['page_number'] = str(page_number)
     return render_template('index.html', **context)
 
 @app.route('/inspect', methods=['GET'])
@@ -288,6 +326,7 @@ def inspect():
     context = default_context()
     context['paper'] = paper
     context['words'] = words
+    context['words_desc'] = "The following are the tokens and their (tfidf) weight in the paper vector. This is the actual summary that feeds into the SVM to power recommendations, so hopefully it is good and representative!"
     return render_template('inspect.html', **context)
 
 @app.route('/profile')

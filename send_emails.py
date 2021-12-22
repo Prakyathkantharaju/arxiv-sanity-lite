@@ -11,6 +11,7 @@ to manually register with sendgrid yourself, get an API key and put it in the fi
 
 import os
 import time
+import random
 import argparse
 
 import numpy as np
@@ -49,6 +50,10 @@ body {
     color: #333;
     margin-bottom: 10px;
 }
+.f {
+    color: #933;
+    display: inline-block;
+}
 </style>
 </head>
 
@@ -64,7 +69,7 @@ body {
 
 <br><br>
 <div>
-To stop these emails remove your email in your <a href="https://arxiv-sanity-lite.com/profile">account</a> settings.
+To stop these emails remove your email in your <a href="https://arxiv-sanity-lite.com/profile">account</a> settings. (your account is __ACCOUNT__).
 </div>
 <div> <3, arxiv-sanity-lite. </div>
 
@@ -87,37 +92,62 @@ def calculate_recommendation(
         ptoi[p] = i
         itop[i] = p
 
-    # construct the positive set via simple union of all tags
-    y = np.zeros(n, dtype=np.float32)
+    # loop over all the tags
+    all_pids, all_scores = {}, {}
     for tag, pids in tags.items():
+
+        if len(pids) == 0:
+            continue
+
+        # construct the positive set for this tag
+        y = np.zeros(n, dtype=np.float32)
         for pid in pids:
             y[ptoi[pid]] = 1.0
 
-    # classify
-    clf = svm.LinearSVC(class_weight='balanced', verbose=False, max_iter=10000, tol=1e-6, C=0.1)
-    clf.fit(x, y)
-    s = clf.decision_function(x)
-    sortix = np.argsort(-s)
-    pids = [itop[ix] for ix in sortix]
-    scores = [100*float(s[ix]) for ix in sortix]
+        # classify
+        clf = svm.LinearSVC(class_weight='balanced', verbose=False, max_iter=10000, tol=1e-6, C=0.01)
+        clf.fit(x, y)
+        s = clf.decision_function(x)
+        sortix = np.argsort(-s)
+        pids = [itop[ix] for ix in sortix]
+        scores = [100*float(s[ix]) for ix in sortix]
 
-    # filter by time to only recent papers
-    deltat = time_delta*60*60*24 # allowed time delta in seconds
-    keep = [i for i,pid in enumerate(pids) if (tnow - metas[pid]['_time']) < deltat]
-    pids, scores = [pids[i] for i in keep], [scores[i] for i in keep]
+        # filter by time to only recent papers
+        deltat = time_delta*60*60*24 # allowed time delta in seconds
+        keep = [i for i,pid in enumerate(pids) if (tnow - metas[pid]['_time']) < deltat]
+        pids, scores = [pids[i] for i in keep], [scores[i] for i in keep]
 
-    # finally exclude the papers we already have tagged
-    have = set().union(*tags.values())
-    keep = [i for i,pid in enumerate(pids) if pid not in have]
-    pids, scores = [pids[i] for i in keep], [scores[i] for i in keep]
+        # finally exclude the papers we already have tagged
+        have = set().union(*tags.values())
+        keep = [i for i,pid in enumerate(pids) if pid not in have]
+        pids, scores = [pids[i] for i in keep], [scores[i] for i in keep]
 
-    return pids, scores
+        # store results
+        all_pids[tag] = pids
+        all_scores[tag] = scores
+
+
+    return all_pids, all_scores
 
 # -----------------------------------------------------------------------------
 
-def render_recommendations(tags, pids, scores):
+def render_recommendations(user, tags, tag_pids, tag_scores):
     # render the paper recommendations into the html template
 
+    # first we are going to merge all of the papers / scores together using a MAX
+    max_score = {}
+    max_source_tag = {}
+    for tag in tag_pids:
+        for pid, score in zip(tag_pids[tag], tag_scores[tag]):
+            max_score[pid] = max(max_score.get(pid, -99999), score) # lol
+            if max_score[pid] == score:
+                max_source_tag[pid] = tag
+
+    # now we have a dict of pid -> max score. sort by score
+    max_score_list = sorted(max_score.items(), key=lambda x: x[1], reverse=True)
+    pids, scores = zip(*max_score_list)
+
+    # now render the html for each individual recommendation
     parts = []
     n = min(len(scores), args.num_recommendations)
     for score, pid in zip(scores[:n], pids[:n]):
@@ -133,12 +163,12 @@ def render_recommendations(tags, pids, scores):
 <tr>
 <td valign="top"><div class="s">%.2f</div></td>
 <td>
-<a href="%s">%s</a>
+<a href="%s">%s</a> <div class="f">(%s)</div>
 <div class="a">%s</div>
 <div class="u">%s</div>
 </td>
 </tr>
-""" % (score, p['link'], p['title'], authors, summary)
+""" % (score, p['link'], p['title'], max_source_tag[pid], authors, summary)
         )
 
     # render the final html
@@ -150,12 +180,16 @@ def render_recommendations(tags, pids, scores):
 
     # render the stats
     num_papers_tagged = len(set().union(*tags.values()))
-    stats = f"We took the {num_papers_tagged} papers across your {len(tags)} tags and \
+    tags_str = ', '.join(['"%s" (%d)' % (t, len(pids)) for t, pids in tags.items()])
+    stats = f"We took the {num_papers_tagged} papers across your {len(tags)} tags ({tags_str}) and \
               ranked {len(pids)} papers that showed up on arxiv over the last \
               {args.time_delta} days using tfidf SVMs over paper abstracts. Below are the \
               top {args.num_recommendations} papers. Remember that the more you tag, \
               the better this gets:"
     out = out.replace('__STATS__', stats)
+
+    # render the account
+    out = out.replace('__ACCOUNT__', user)
 
     return out
 
@@ -216,6 +250,7 @@ if __name__ == "__main__":
     pdb = get_papers_db()
 
     # iterate all users, create recommendations, send emails
+    num_sent = 0
     for user, tags in tags.items():
 
         # verify that we have an email for this user
@@ -233,16 +268,18 @@ if __name__ == "__main__":
             print("skipping user %s, no papers tagged" % (user, ))
             continue
 
+        # insert a fake entry in tags for the special "all" tag, which is the union of all papers
+        # tags['all'] = set().union(*tags.values())
+
         # calculate the recommendations
         pids, scores = calculate_recommendation(tags, time_delta=args.time_delta)
-        print("user %s has %d recommendations over last %d days" % (user, len(pids), args.time_delta))
-        if len(pids) == 0:
-            print("skipping the rest, no recommendations were produced")
+        if all(len(lst) == 0 for tag, lst in pids.items()):
+            print("skipping user %s, no recommendations were produced" % (user, ))
             continue
 
         # render the html
-        print("rendering top %d recommendations into a report..." % (args.num_recommendations, ))
-        html = render_recommendations(tags, pids, scores)
+        print("rendering top %d recommendations into a report for %s..." % (args.num_recommendations, user))
+        html = render_recommendations(user, tags, pids, scores)
         # temporarily for debugging write recommendations to disk for manual inspection
         if os.path.isdir('recco'):
             with open('recco/%s.html' % (user, ), 'w') as f:
@@ -251,6 +288,11 @@ if __name__ == "__main__":
         # actually send the email
         print("sending email...")
         send_email(email, html)
+        num_sent += 1
 
+        # zzz?
+        # time.sleep(1 + random.uniform(0, 2))
 
     print("done.")
+    print("sent %d emails" % (num_sent, ))
+

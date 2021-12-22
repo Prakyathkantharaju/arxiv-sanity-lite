@@ -1,0 +1,2082 @@
+{
+  "databases": [
+    "acm",
+    "ieee",
+    "scopus"
+  ],
+  "limit": null,
+  "limit_per_database": 50,
+  "number_of_papers": 50,
+  "number_of_papers_by_database": {
+    "ACM": 50
+  },
+  "papers": [
+    {
+      "abstract": "Slip and fall is a major cause of injury in the elderly and outdoor workers. This paper presents the development of a wearable knee assistive device aimed to prevent slip-induced falls. The proposed novel approach relies on providing active assistance to the trailing leg during slip onset. The assistive device, when slip is detected and device is activated, actively extends the knee of the trailing leg creating contact with the ground. This immediately extends subject&#x2019;s base of support and helps with balance recovery. The lightweight device is powered by compressed CO2 gas from a small cartridge that can be used for a single slip assistance and easily replaced. The results of device characterization and human subject testing demonstrate that the device can assist with rapid knee extension during gait, forming an active slip and fall recovery strategy.",
+      "authors": [
+        "Monika Mioskowska",
+        "Duncan Stevenson",
+        "Michael Onu",
+        "Mitja Trkov"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/AIM43001.2020.9158992",
+      "keywords": [],
+      "number_of_pages": 6,
+      "pages": "735-740",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": null,
+        "publisher": "IEEE Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "2020 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)"
+      },
+      "publication_date": "2020-07-01",
+      "selected": null,
+      "title": "Compressed Gas Actuated Knee Assistive Exoskeleton for Slip-Induced Fall Prevention During Human Walking",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/AIM43001.2020.9158992"
+      ]
+    },
+    {
+      "abstract": "In the study of muscle synergies during the maintenance of single-leg stance (SLS) there are methodological issues that must be taken into account before performing the synergy extraction. In particular, it is important to distinguish between epochs of surface electromyographic (sEMG) signals corresponding to a \"good\" balance control during the SLS test, from those characterized by an \"excessive\" body sway. The aim of this work is to assess the robustness in the segmentation and selection of sEMG signal epochs to be chosen as input for the synergy extraction algorithm. The robustness is evaluated in terms of: 1) consistency of the number of muscle synergies, and 2) weight vector correlation. Our results show that the same number of muscle synergies and similar weight vectors are obtained, independently from the threshold chosen to build the segmentation mask. The methodology proposed may help the interpretation of muscle synergies in SLS test.",
+      "authors": [
+        "Marco Ghislieri",
+        "Marco Knaflitz",
+        "Luciana Labanca",
+        "Giuseppe Barone",
+        "Laura Bragonzoni",
+        "Maria Grazia Benedetti",
+        "Valentina Agostini"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/MeMeA49120.2020.9137180",
+      "keywords": [],
+      "number_of_pages": 6,
+      "pages": "1-6",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": null,
+        "publisher": "IEEE Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "2020 IEEE International Symposium on Medical Measurements and Applications (MeMeA)"
+      },
+      "publication_date": "2020-06-01",
+      "selected": null,
+      "title": "Methodological issues in the assessment of motor control during single-leg stance",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/MeMeA49120.2020.9137180"
+      ]
+    },
+    {
+      "abstract": "Individuals with patellofemoral pain syndrome present biomechanical alterations of lower limb kinematics and difficulties in postural control. Taping techniques like McConnell&#x2019;s were adopted to reduce pain and avert lower extremity injury, especially on the knee joint complex. Although the patellar taping appears to be an effective tool in reducing patellofemoral pain by stabilizing the patellofemoral joint, its immediate effects on balance, and trunk and lower limb kinematics are still not clear. The assessment of the immediate taping-induced biomechanical modifications on balance and kinematics could provide a deeper insight into the mechanical actions of the McConnell&#x2019;s. Nine healthy young adults (age: 29.1 &#x00B1; 4.7 years) were equipped with eight wireless inertial measurement units placed on trunk and lower limbs. Participants were asked to perform the Star Excursion Balance Test (SEBT) and the Single Leg Squat (SLS) task in five different directions on a force plate. Kinematics of lumbosacral and lower limb joints, as well as balance indices such as spatiotemporal parameters of the center of pressure, were estimated with and without the McConnell taping. No mechanical effects were observed for spatiotemporal indices of the center of pressure and for all considered kinematic parameters, except for kinematics of the knee. Results demonstrated significant differences due to taping condition (p=0.01) for the knee joint in the SLS task. A similar trend was observed in SEBT. This interesting result highlights the instantaneous effect of McConnell taping on knee joint complex, without impairing any self-selected strategies adopted by healthy subjects.",
+      "authors": [
+        "Ilaria Conforti",
+        "Stefano Fiore",
+        "Ilaria Mileti",
+        "Lorenzo Dinia",
+        "Fabio Mangini",
+        "Fabrizio Frezza",
+        "Zaccaria Del Prete",
+        "Eduardo Palermo"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/MeMeA49120.2020.9137145",
+      "keywords": [],
+      "number_of_pages": 6,
+      "pages": "1-6",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": null,
+        "publisher": "IEEE Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "2020 IEEE International Symposium on Medical Measurements and Applications (MeMeA)"
+      },
+      "publication_date": "2020-06-01",
+      "selected": null,
+      "title": "Measuring immediate effects of patellar taping on balance kinematics",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/MeMeA49120.2020.9137145"
+      ]
+    },
+    {
+      "abstract": "The combination of wheels and humanoid robots is a promising way to improve the performance of bipedal robots in agility, moving speed, and energy efficiency. This combination enables the robot to move faster on flat ground, which can effectively improve the adaptability of the biped robot in application scenarios such as logistic distribution, inspection and home services. This paper introduces a 6-DOF bipedal leg-wheeled robot SR600, which has two actuated wheels at the end of the robot shanks, and achieves its balance and locomotion through wheel-driven approach. SR600 is mainly composed of five parts: a waist, two thighs, and two shanks with wheels. It is modeled as a variable-structure wheeled inverted pendulum and we derived its kinematics model based on the center of gravity constraint. Control strategies for balance and locomotion of SR600 are handled by proportional integral differential (PID) controllers. Finally, several practical experiments are conducted to validate the feasibility of the robot mechatronic system and the balance control strategies.",
+      "authors": [
+        "Chao Zhang",
+        "Tangyou Liu",
+        "Shuang Song",
+        "Max Q.-H. Meng"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/ROBIO49542.2019.8961814",
+      "keywords": [],
+      "number_of_pages": 6,
+      "pages": "1869-1874",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": null,
+        "publisher": "IEEE Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "2019 IEEE International Conference on Robotics and Biomimetics (ROBIO)"
+      },
+      "publication_date": "2019-12-01",
+      "selected": null,
+      "title": "System Design and Balance Control of a Bipedal Leg-wheeled Robot",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/ROBIO49542.2019.8961814"
+      ]
+    },
+    {
+      "abstract": "This paper introduces a new full-bridge hybrid multilevel converter topology that is realized through combining the two-level leg and the multilevel leg based on the stacked multicell (SM) converters. The 50% reduction in the number of switching power cells, semiconductor devices, and the flying capacitors (FCs) are the profound advantages of the proposed topology in comparison with the standard SM converter. These features decrease the voltage rating of the capacitors as well as their stored energy, and the size and cost of the converter. This improvement is achieved by adding two line-frequency switches to the conventional topology. A modified phase-shifted-carrier pulse-width-modulation (PSC-PWM) strategy has been adopted to control the proposed topology, and consequently it demonstrates the outstanding feature of the natural-balance for FC voltages. Simulation results are provided to validate the proposed topology and its control technique.",
+      "authors": [
+        "Arash Khoshkbar Sadigh",
+        "Vahid Dargahi",
+        "Keith A. Corzine"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/IECON.2019.8927395",
+      "keywords": [],
+      "number_of_pages": 6,
+      "pages": "4977-4982",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": null,
+        "publisher": "IEEE Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "IECON 2019 - 45th Annual Conference of the IEEE Industrial Electronics Society"
+      },
+      "publication_date": "2019-10-01",
+      "selected": null,
+      "title": "Reduction of Switches and Flying Capacitors in a Hybrid Topology of the Stacked Multicell Converters",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/IECON.2019.8927395"
+      ]
+    },
+    {
+      "abstract": "In this study we analyze slackline balancing, a task where the subject has to maintain balance on a narrow elastic ribbon that is mounted between two anchor points. We investigate a list of potential performance indicators for stability and their relationship to successful and unsuccessful slackline balancing. We captured the motions of 11 subjects of three different skill levels (beginners, sportive beginners and experts) and recorded a total of 205 standing and 180 walking motions on the slackline. We analyzed all trials fitting subject specific, dynamic rigid body models to the measured kinematic motions. The results show that experts are able to precisely control their angular momentum. They mainly balance in the transverse plane and reduce motion in the sagittal plane and around the vertical axis. We also found their walking style being adapted to these criteria. Further, experts are able to move their contact foot in the transverse plane while keeping their center of mass steady. They adjust their ankle and knee compliance in the stance leg. Sufficient center of mass acceleration control in the vertical direction was found to be a necessary skill to walk on a slackline. Additionally, we found consistent hand coordination patterns in all experts and already in sportive beginners.",
+      "authors": [
+        "Kevin Stein",
+        "Katja Mombaur"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/Humanoids43949.2019.9035004",
+      "keywords": [],
+      "number_of_pages": 8,
+      "pages": "469-476",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": null,
+        "publisher": "IEEE Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "2019 IEEE-RAS 19th International Conference on Humanoid Robots (Humanoids)"
+      },
+      "publication_date": "2019-10-01",
+      "selected": null,
+      "title": "Performance indicators for stability of slackline balancing",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/Humanoids43949.2019.9035004"
+      ]
+    },
+    {
+      "abstract": "In this paper, we propose a new and simple control strategy for gait assistance with a hip exoskeleton robot. This controller is based on the time delayed, self-feedback known for stabilizing oscillatory systems under certain conditions. In this controller, there are no separate estimators for the gait phase nor the environment, yet the controller can be generalized to operate under various walking conditions (e.g., stair and ramp walking). We first define a state variable representing the current leg&#x0027;s movement with hip joint angles. A simple assistance control can be described in closed-loop form with the delayed state feedback. By assigning the appropriate time-delay and self-feedback gain, we can generate assistive torques stably under the interaction between human and exoskeleton. The controller provides immediate and smooth assistance to user movement by reflecting the change of leg motion at every control period. The proposed joint-angle-based delayed-feedback assistance controller can operate under various walking speeds and environmental changes (e.g., stairs and ramps) without the need for additional sensors, computational processing, and parameter adjustment. Using a simple leg swing model, we perform a stability analysis under a simplified condition to provide insights into the effects of the time-delayed feedback in oscillatory systems. Then, we experimentally validate the efficacy of the proposed assistance controller by measuring the metabolic energy expenditure for level treadmill walking. We also test and analyze the generated assistive torques and power under the different walking conditions to show the generalizability of the controller.",
+      "authors": [
+        "Bokman Lim",
+        "Jusuk Lee",
+        "Junwon Jang",
+        "Kyungrock Kim",
+        "Young Jin Park",
+        "Keehong Seo",
+        "Youngbo Shim"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/TRO.2019.2913318",
+      "keywords": [],
+      "number_of_pages": 8,
+      "pages": "1055-1062",
+      "publication": {
+        "category": null,
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1552-3098",
+        "publisher": "IEEE Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Trans. Rob."
+      },
+      "publication_date": "2019-08-01",
+      "selected": null,
+      "title": "Delayed Output Feedback Control for Gait Assistance With a Robotic Hip Exoskeleton",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/TRO.2019.2913318"
+      ]
+    },
+    {
+      "abstract": "In order to control the exoskeleton of lower limbs accurately, it is necessary to establish an accurate dynamic model. In this paper, the lower extremity exoskeleton is simplified to five-bar mechanism, and the walking mode of human body is divided into single-leg support mode and double-leg support mode. Then, the two models of walking patterns were dynamically modeled and analyzed by the Lagrange method to obtain joint torque. Finally, the multi-body dynamics simulation software ADAMS is used to carry out the dynamic simulation, which verifies the correctness of the theoretical analysis, and provides a theoretical basis for motor selection and control system design of rehabilitation robot.",
+      "authors": [
+        "Min Zhang",
+        "Yifeng Guo",
+        "Min He"
+      ],
+      "categories": null,
+      "citations": 3,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1145/3351180.3351207",
+      "keywords": [
+        "Rehabilitation robot",
+        "Dynamic model",
+        "Lagrange equation",
+        "Lower extremity exoskeleton"
+      ],
+      "number_of_pages": 4,
+      "pages": "128-131",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": "9781450371834",
+        "issn": null,
+        "publisher": "Association for Computing Machinery",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Proceedings of the 2019 4th International Conference on Robotics, Control and Automation"
+      },
+      "publication_date": "2019-07-26",
+      "selected": null,
+      "title": "Dynamic Analysis of Lower Extremity Exoskeleton of Rehabilitation Robot",
+      "urls": [
+        "https://dl.acm.org/doi/10.1145/3351180.3351207"
+      ]
+    },
+    {
+      "abstract": "Recent Developments in engineering and robotics has brought technology into the close proximity of the human body. The exoskeleton is a wearable technology that can assist the wearer with the strenuous and cumbersome operations and relieve stress and fatigue in the wearer.",
+      "authors": [
+        "Prabhakar Naik",
+        "Jayant Unde",
+        "Bhushan Darekar",
+        "S. S. Ohol"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1145/3352593.3352627",
+      "keywords": [
+        "Finite Element Analysis",
+        "Arduino",
+        "Robotics",
+        "Pneumatic Artificial Muscles",
+        "Exoskeleton",
+        "Wearable Technology"
+      ],
+      "number_of_pages": 7,
+      "pages": "1-7",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": "9781450366502",
+        "issn": null,
+        "publisher": "Association for Computing Machinery",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Proceedings of the Advances in Robotics 2019"
+      },
+      "publication_date": "2019-07-02",
+      "selected": null,
+      "title": "Pneumatic Artificial Muscle Powered Exoskeleton",
+      "urls": [
+        "https://dl.acm.org/doi/10.1145/3352593.3352627"
+      ]
+    },
+    {
+      "abstract": "Powered exoskeleton technology helps turns dreams of recovering mobility after paralysis into reality. One of the most common problems encountered in the u",
+      "authors": [
+        "Al-Ayyad, Muhammad",
+        "Moh\u2019d, Bashar Al-haj",
+        "Qasem, Nidal",
+        "Al-Takrori, Mohammad"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1007/s10916-019-1333-2",
+      "keywords": [
+        "H-bridge",
+        "LabView",
+        "DC motor",
+        "Lower limb",
+        "Current variation",
+        "Exoskeleton",
+        "Accelerometer",
+        "EMG",
+        "Sensor-less"
+      ],
+      "number_of_pages": 9,
+      "pages": "1-9",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "0148-5598",
+        "publisher": "Plenum Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Journal of Medical Systems"
+      },
+      "publication_date": "2019-07-01",
+      "selected": null,
+      "title": "Controlling a Lower-Leg Exoskeleton Using Voltage and Current Variation Signals of a DC Motor Mounted at the Knee Joint",
+      "urls": [
+        "https://link.springer.com/content/pdf/10.1007/s10916-019-1333-2.pdf",
+        "https://dl.acm.org/doi/10.1007/s10916-019-1333-2"
+      ]
+    },
+    {
+      "abstract": "Robots with joint or link compliance are gaining importance due to their inherent safety. In this paper four different designs of compliant shanks of an 8 ",
+      "authors": [
+        "Sarkar, Abhishek",
+        "Dutta, Ashish"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1007/s10846-018-0882-9",
+      "keywords": [
+        "Biped robot",
+        "Walking gait",
+        "Inclined terrain",
+        "Compliant-link"
+      ],
+      "number_of_pages": 20,
+      "pages": "583-602",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "0921-0296",
+        "publisher": "Kluwer Academic Publishers",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Journal of Intelligent & Robotic Systems"
+      },
+      "publication_date": "2019-06-01",
+      "selected": null,
+      "title": "Optimal Trajectory Generation and Design of an 8-DoF Compliant Biped Robot for Walk on Inclined Ground",
+      "urls": [
+        "https://dl.acm.org/doi/10.1007/s10846-018-0882-9",
+        "https://link.springer.com/content/pdf/10.1007/s10846-018-0882-9.pdf"
+      ]
+    },
+    {
+      "abstract": "Beyond the existing single-person and multiple-person human parsing tasks in static images, this paper makes the first attempt to investigate a more realistic video instance-level human parsing that simultaneously segments out each person instance and parses each instance into more fine-grained parts (\\eg, head, leg, dress). We introduce a novel Adaptive Temporal Encoding Network (ATEN) that alternatively performs temporal encoding among key frames and flow-guided feature propagation from other consecutive frames between two key frames. Specifically, ATEN first incorporates a Parsing-RCNN to produce the instance-level parsing result for each key frame, which integrates both the global human parsing and instance-level human segmentation into a unified model. To balance between accuracy and efficiency, the flow-guided feature propagation is used to directly parse consecutive frames according to their identified temporal consistency with key frames. On the other hand, ATEN leverages the convolution gated recurrent units (convGRU) to exploit temporal changes over a series of key frames, which are further used to facilitate the frame-level instance-level parsing. By alternatively performing direct feature propagation between consistent frames and temporal encoding network among key frames, our ATEN achieves a good balance between frame-level accuracy and time efficiency, which is a common crucial problem in video object segmentation research. To demonstrate the superiority of our ATEN, extensive experiments are conducted on the most popular video segmentation benchmark (DAVIS) and a newly collected Video Instance-level Parsing (VIP) dataset, which is the first video instance-level human parsing dataset comprised of 404 sequences and over 20k frames with instance-level and pixel-wise annotations.",
+      "authors": [
+        "Qixian Zhou",
+        "Xiaodan Liang",
+        "Ke Gong",
+        "Liang Lin"
+      ],
+      "categories": null,
+      "citations": 10,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1145/3240508.3240660",
+      "keywords": [
+        "adaptive learning",
+        "video instance-level human parsing",
+        "temporal encoding network"
+      ],
+      "number_of_pages": 9,
+      "pages": "1527-1535",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": "9781450356657",
+        "issn": null,
+        "publisher": "Association for Computing Machinery",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Proceedings of the 26th ACM international conference on Multimedia"
+      },
+      "publication_date": "2018-10-15",
+      "selected": null,
+      "title": "Adaptive Temporal Encoding Network for Video Instance-level Human Parsing",
+      "urls": [
+        "https://dl.acm.org/doi/10.1145/3240508.3240660"
+      ]
+    },
+    {
+      "abstract": "In this paper, we will compare the walking behavior of quadruped and hexapod walking MEMS robots. These robots are fabricated by connecting same modules, w",
+      "authors": [
+        "Kawamura, Satoshi",
+        "Tanaka, Daisuke",
+        "Tanaka, Taisuke",
+        "Noguchi, Daisuke",
+        "Hayakawa, Yuichiro",
+        "Kaneko, Minami",
+        "Saito, Ken",
+        "Uchikoba, Fumio"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1007/s10015-018-0445-y",
+      "keywords": [
+        "Biomimetics",
+        "Neural networks",
+        "Microrobot",
+        "IC",
+        "MEMS"
+      ],
+      "number_of_pages": 7,
+      "pages": "380-386",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1433-5298",
+        "publisher": "Springer-Verlag",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Artificial Life and Robotics"
+      },
+      "publication_date": "2018-09-01",
+      "selected": null,
+      "title": "Neural networks IC controlled multi-legged walking MEMS robot with independent leg mechanism",
+      "urls": [
+        "https://dl.acm.org/doi/10.1007/s10015-018-0445-y",
+        "https://link.springer.com/content/pdf/10.1007/s10015-018-0445-y.pdf"
+      ]
+    },
+    {
+      "abstract": "This study investigates the problem of dynamic walking impact on a biped robot. Two online variable stiffness control algorithms, i.e., torque balance algo",
+      "authors": [
+        "Luo, Jianwen",
+        "Wang, Shuguo",
+        "Zhao, Ye",
+        "Fu, Yili"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1007/s11370-018-0248-y",
+      "keywords": [
+        "Biped robot",
+        "Variable stiffness control",
+        "Series elastic actuator",
+        "Virtual leg"
+      ],
+      "number_of_pages": 11,
+      "pages": "225-235",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1861-2776",
+        "publisher": "Springer-Verlag",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Intelligent Service Robotics"
+      },
+      "publication_date": "2018-07-01",
+      "selected": null,
+      "title": "Variable stiffness control of series elastic actuated biped locomotion",
+      "urls": [
+        "https://link.springer.com/content/pdf/10.1007/s11370-018-0248-y.pdf",
+        "https://dl.acm.org/doi/10.1007/s11370-018-0248-y"
+      ]
+    },
+    {
+      "abstract": "In this paper, we present a novel method to measure the anterior (ANT) reach distance of the modified Star Excursion Balance Test (mSEBT). Using depth images obtained from the Microsoft KinectTM V2 sensor, we compared our results against a \"gold standard\" marker-based Vicon motion capture system. Seven healthy subjects participated in the study and were asked to perform five ANT reach trials of mSEBT bilaterally. Intra-class correlation coefficient (ICC), standard error of measurement (SEM), and smallest detectable distance (SDD) values were calculated. The Kinect demonstrated good reliability (0.7-0.9) against the Vicon in estimating absolute ANT reach and ANT reach normalized to leg length. The ICC (2,1) measurements were 0.75, 0.81 for absolute ANT reach distances and 0.81, 0.84 for normalized ANT reach measures, for the left and right foot, respectively. The SEM and SDD values of the Kinect were similar to previously reported normalized ANT reach manual measurements at 3.65, 10.11 for the left foot and 3.98, 11.04 for the right foot, respectively. For absolute ANT reach distances, the SEM and SDD values were 3.19cm, 8.85cm and 3.75cm, 10.41cm for the left and right foot, respectively. These results show potential capabilities of the depth image analysis method to provide reasonable accuracy in measuring ANT reach performance during the mSEBT.",
+      "authors": [
+        "Anup K. Mishra",
+        "Marjorie Skubic",
+        "Brad W. Willis",
+        "Trent Guess",
+        "Aaron D. Gray",
+        "Seth L. Sherman"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1145/3240925.3240971",
+      "keywords": [
+        "Star Excursion Balance Test",
+        "Kinect V2.0",
+        "Anterior Reach",
+        "Depth Image Analysis",
+        "Fuzzy C-Means (FCM) Clustering"
+      ],
+      "number_of_pages": 4,
+      "pages": "11-14",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": "9781450364508",
+        "issn": null,
+        "publisher": "Association for Computing Machinery",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Proceedings of the 12th EAI International Conference on Pervasive Computing Technologies for Healthcare"
+      },
+      "publication_date": "2018-05-21",
+      "selected": null,
+      "title": "A Novel Depth Image Analysis Method to Calculate the Anterior Reach of the Modified Star Excursion Balance Test",
+      "urls": [
+        "https://dl.acm.org/doi/10.1145/3240925.3240971"
+      ]
+    },
+    {
+      "abstract": "A model-free based neural network control with time-delay estimation (TDE-MFNNC) for lower extremity exoskeleton is presented in this paper. The lower limb exoskeleton which has 5 DOFs for each leg is established in Solidworks as a virtual prototype which is used as a platform to build the control system in SimMechanics. In an attempt to get the effective tracking trajectory, a neural network and time-delay estimation technique is added to model-free based iPD controller. The proposed controller is simulated and tested on virtual prototype to comparing with PD controller, neural network and model-free based iPD controller. This comparative study validates TDE-MFNNC as more stable and effective than the traditional controllers. Further, the kinematic model of lower limb exoskeleton added to exoskeleton also proves the stability and effectiveness of the proposed controller.",
+      "authors": [
+        "Xinyi Zhang",
+        "Haoping Wang",
+        "Yang Tian",
+        "Laurent Peyrodie",
+        "Xikun Wang"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1016/j.neucom.2017.06.055",
+      "keywords": [
+        "Model-free control",
+        "Neural network",
+        "Lower limb exoskeleton",
+        "Kinematic model",
+        "Time-delay estimation"
+      ],
+      "number_of_pages": 11,
+      "pages": "178-188",
+      "publication": {
+        "category": null,
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "0925-2312",
+        "publisher": "Elsevier Science Publishers B. V.",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Neurocomput."
+      },
+      "publication_date": "2018-01-10",
+      "selected": null,
+      "title": "Model-free based neural network control with time-delay estimation for lower extremity exoskeleton",
+      "urls": [
+        "https://dl.acm.org/doi/10.1016/j.neucom.2017.06.055"
+      ]
+    },
+    {
+      "abstract": "A fault-tolerant control technique is discussed for the Neutral-Point-Clamped (NPC) three-level inverter, which ensures that the NPC inverter operates normally even under device failures. A two-level leg is added to the NPC inverter; when the device open circuit fault occurs, the load of this faulty phase is connected to the neutral point of this two-level leg through the bidirectional thyristors. An improved Space Vector Pulse Width Modulation (SVPWM) strategy called &#x201c;addition and subtraction substitution SVPWM&#x201d; is proposed to effectively suppress fluctuation in capacitor neutral-point voltages by readjusting the sequence and action time of voltage vectors. The fault-tolerant topology in this paper has the advantages of fewer switching devices and lower circuit costs. Experimental results show that the proposed fault-tolerant system can operate in balance of capacitor neutral-point voltages at full output power and the reliability of the inverter is greatly enhanced.",
+      "authors": [
+        "Shen, Yanxia",
+        "Miao, Beibei",
+        "Wu, Dinghui",
+        "Ali Ibrahim, Kader"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "https://doi.org/10.1155/2018/5126404",
+      "keywords": [],
+      "number_of_pages": 9,
+      "pages": "",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1687-5249",
+        "publisher": "Hindawi Limited",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Journal of Control Science and Engineering"
+      },
+      "publication_date": "2018-01-01",
+      "selected": null,
+      "title": "Fault-Tolerant Control Strategy for Neutral-Point-Clamped Three-Level Inverter",
+      "urls": [
+        "https://dl.acm.org/doi/10.1155/2018/5126404",
+        "https://downloads.hindawi.com/journals/jcse/2018/5126404.pdf"
+      ]
+    },
+    {
+      "abstract": "Locomotion of insects is exceptionally efficient and this efficiency is partially due to the kinematics within leg joints, which in different movement scen",
+      "authors": [
+        "Vagts, Steffen",
+        "Schlattmann, Josef",
+        "Busshardt, Philipp",
+        "Kleinteich, Thomas",
+        "Gorb, Stanislav N."
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1007/s10015-017-0386-x",
+      "keywords": [
+        "Motion tracking",
+        "Multi-body simulation",
+        "Leg joints",
+        "Insect",
+        "Kinematics",
+        "Locomotion"
+      ],
+      "number_of_pages": 9,
+      "pages": "412-420",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1433-5298",
+        "publisher": "Springer-Verlag",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Artificial Life and Robotics"
+      },
+      "publication_date": "2017-12-01",
+      "selected": null,
+      "title": "The application of multi-body simulation approach in the kinematic analysis of beetle leg joints",
+      "urls": [
+        "https://link.springer.com/content/pdf/10.1007/s10015-017-0386-x.pdf",
+        "https://dl.acm.org/doi/10.1007/s10015-017-0386-x"
+      ]
+    },
+    {
+      "abstract": "We present a solution method for the liner shipping network design problem.The algorithm explicitly handles transshipment time limits for all demands.Individual sailing speeds at each service leg are used to balance sailing speed against operational costs.Computational results are showing very promising results for realistic global liner shipping networks.A sensitivity analysis on fluctuations in bunker price confirms the applicability of the algorithm. We present a solution method for the liner shipping network design problem which is a core strategic planning problem faced by container carriers. We propose the first practical algorithm which explicitly handles transshipment time limits for all demands. Individual sailing speeds at each service leg are used to balance sailing speed against operational costs, hence ensuring that the found network is competitive on both transit time and cost. We present a matheuristic for the problem where a MIP is used to select which ports should be inserted or removed on a route. Computational results are presented showing very promising results for realistic global liner shipping networks. Due to a number of algorithmic enhancements, the obtained solutions can be found within the same time frame as used by previous algorithms not handling time constraints. Furthermore, we present a sensitivity analysis on fluctuations in bunker price which confirms the applicability of the algorithm.",
+      "authors": [
+        "Christian Vad Karsten",
+        "Berit Dangaard Brouer",
+        "David Pisinger"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1016/j.cor.2017.05.018",
+      "keywords": [
+        "Level of service",
+        "Container shipping",
+        "Network design"
+      ],
+      "number_of_pages": 12,
+      "pages": "125-136",
+      "publication": {
+        "category": null,
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "0305-0548",
+        "publisher": "Elsevier Science Ltd.",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Comput. Oper. Res."
+      },
+      "publication_date": "2017-11-01",
+      "selected": null,
+      "title": "Competitive Liner Shipping Network Design",
+      "urls": [
+        "https://dl.acm.org/doi/10.1016/j.cor.2017.05.018"
+      ]
+    },
+    {
+      "abstract": "The aim of this research work is to generate feasible motion for a biped robot to dynamically cross a wide ditch which is defined as a ditch with width mor",
+      "authors": [
+        "V., Janardhan",
+        "R., Prasanth Kumar"
+      ],
+      "categories": null,
+      "citations": 1,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1007/s10846-017-0550-5",
+      "keywords": [
+        "Biped robot",
+        "Motion planning",
+        "Wide ditch",
+        "Ditch crossing"
+      ],
+      "number_of_pages": 20,
+      "pages": "37-56",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "0921-0296",
+        "publisher": "Kluwer Academic Publishers",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Journal of Intelligent & Robotic Systems"
+      },
+      "publication_date": "2017-10-01",
+      "selected": null,
+      "title": "Generating Feasible Solutions for Dynamically Crossing a Wide Ditch by a Biped Robot",
+      "urls": [
+        "https://dl.acm.org/doi/10.1007/s10846-017-0550-5",
+        "https://link.springer.com/content/pdf/10.1007/s10846-017-0550-5.pdf"
+      ]
+    },
+    {
+      "abstract": "This paper proposes the design of an electricity-powered lower-limb exoskeleton called Human Universal Mobility Assistance (HUMA). HUMA was developed as a research platform with the objective of providing its wearer with weight-bearing assistance for human strength/endurance augmentation. It has 12 degrees of active/spring passive/free passive freedom to assist human locomotion. The artificial leg has two electricity-powered degrees of freedom (DoFs) for hip/knee flexions/extensions, passive spring-installed two DoFs for ankle inversion/eversion and plantarflexion/dorsiflexion, and two free, passive DoFs for hip roll/yaw movements. HUMA has mechanical structures for active artificial hip and knee joints; the hip actuator is not directly connected to the robots leg system, but a universal joint is installed between the actuator and the leg system to allow a free coaxial hip yaw/roll DoF for the wearer. Therefore, the hip-actuating torque is transferred solely for hip flexion/extension. Its active artificial knee is structured by a four bar-based polycentric linkage, and is power=driven by an actuator in the middle of the robots thigh segment through the other four bar-based power transmission linkage. This powered knee structure yields several advantages related to (1) humanrobot knee alignment during leg motion, (2) the expansion of the zone of voluntary knee stability, (3) the angle-dependent variable knee torque/velocity amplification ratio, and (4) a reduction in the total moment of artificial leg inertia. The exoskeleton was tested for dynamic gait by using assistive torques determined by a control algorithm. Experiments were conducted on the robot while it walked at 5 km/h (1.39 m/s) with/without a 20 kg load, as well as for a 10-km/h (2.78 m/s) run.",
+      "authors": [
+        "Dong Jin Hyun",
+        "Hyunseok Park",
+        "Taejun Ha",
+        "Sangin Park",
+        "Kyungmo Jung"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1016/j.robot.2017.06.010",
+      "keywords": [
+        "Lower-limb exoskeleton",
+        "Universal joint-based artificial hip",
+        "Polycentric artificial knee",
+        "Human locomotion assistance"
+      ],
+      "number_of_pages": 15,
+      "pages": "181-195",
+      "publication": {
+        "category": null,
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "0921-8890",
+        "publisher": "North-Holland Publishing Co.",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Robot. Auton. Syst."
+      },
+      "publication_date": "2017-09-01",
+      "selected": null,
+      "title": "Biomechanical design of an agile, electricity-powered lower-limb exoskeleton for weight-bearing assistance",
+      "urls": [
+        "https://dl.acm.org/doi/10.1016/j.robot.2017.06.010"
+      ]
+    },
+    {
+      "abstract": "This paper proposes architecture for a biped robot with six DOFs per leg and three DOFs Pelvis with each foot having capability to measure the reaction force. System is controlled by 32-bit microcontroller, sensors, strain gauges, and feedback devices for the balancing while it is on single or double foot posture. It has been observed that balance of 15-DOF biped system is achieved successfully with the help of measuring Zero Moment Point (ZMP) with strain gauge and accelerometer.",
+      "authors": [
+        "Vinaykumar J. Patel",
+        "Ajulkumar M. Pandya"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1145/3132446.3134869",
+      "keywords": [
+        "High torque DC motor",
+        "Zero Moment Point (ZMP)",
+        "Strain gauge"
+      ],
+      "number_of_pages": 6,
+      "pages": "1-6",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": "9781450352949",
+        "issn": null,
+        "publisher": "Association for Computing Machinery",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Proceedings of the Advances in Robotics"
+      },
+      "publication_date": "2017-06-28",
+      "selected": null,
+      "title": "Balancing of 15-DOF Biped System",
+      "urls": [
+        "https://dl.acm.org/doi/10.1145/3132446.3134869"
+      ]
+    },
+    {
+      "abstract": "Robotic systems are being used for gait rehabilitation of patients with neurological disorders. These are externally powered devices that can apply external forces on human limbs to assist the limb motion. Human walking pattern involves repetitive and well coordinated lower limb movements. A cable driven leg exoskeleton (CDLE) uses actuated cables to apply external torques at anatomical hip and knee joints. However, a cable can apply only pulling force on a body which limits a cable driven system functionality compared to a conventional robotic manipulator. Noting that a CDLE is proposed to assist in complex lower limb motion during walking We present workspace analysis of CDLE considering planar and spatial leg model. Human walking data were used for the analysis and to study the feasibility of CDLE architecture for human gait rehabilitation.1",
+      "authors": [
+        "N. S. S. Sanjeevi",
+        "Vineet Vashista"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1145/3132446.3134911",
+      "keywords": [
+        "Leg Exoskeleton",
+        "Gait Rehabilitation",
+        "Workspace analysis"
+      ],
+      "number_of_pages": 6,
+      "pages": "1-6",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": "9781450352949",
+        "issn": null,
+        "publisher": "Association for Computing Machinery",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Proceedings of the Advances in Robotics"
+      },
+      "publication_date": "2017-06-28",
+      "selected": null,
+      "title": "Workspace Analysis of a Cable Driven Leg Exoskeleton",
+      "urls": [
+        "https://dl.acm.org/doi/10.1145/3132446.3134911"
+      ]
+    },
+    {
+      "abstract": "In this paper we propose the design and control of a 4-bar mechanism based gravity balanced orthosis for providing gait training to persons with disability",
+      "authors": [
+        "Choudhary, Ved Prakash",
+        "Singh, Vipin Kumar",
+        "Dutta, Ashish"
+      ],
+      "categories": null,
+      "citations": 1,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1007/s10846-017-0466-0",
+      "keywords": [
+        "Leg orthosis",
+        "Gravity balancing",
+        "4-bar mechanism",
+        "Human gait"
+      ],
+      "number_of_pages": 10,
+      "pages": "485-494",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "0921-0296",
+        "publisher": "Kluwer Academic Publishers",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Journal of Intelligent & Robotic Systems"
+      },
+      "publication_date": "2017-06-01",
+      "selected": null,
+      "title": "Design of an Optimal 4-bar Mechanism Based Gravity Balanced Leg Orthosis",
+      "urls": [
+        "https://dl.acm.org/doi/10.1007/s10846-017-0466-0",
+        "https://link.springer.com/content/pdf/10.1007/s10846-017-0466-0.pdf"
+      ]
+    },
+    {
+      "abstract": "Static body sway is a clinically relevant activity parameter, used to assess postural balance, across a wide spectrum of patient populations. We have examined static body sway using two different segmental total body center of mass (TBCM) estimation methods, the Generator of Body Data III (GEBOD) and Winter's method, using Microsoft Kinect skeletal data. Twenty subjects were recruited through an IRB study and asked to perform three trials of single leg stance with their eyes closed, with positioning based on the Balance Error Scoring System. A force plate system was used to estimate the ground truth data for comparison. Results show that both GEBOD and Winter's method performed similar in estimating anterior-posterior (AP) and medio-lateral (ML) body sway. The results also show highly correlated measurements by the two TBCM estimation methods when compared with the force plate system (mean RMSE value of 10.18 mm square in AP and 8.00 mm square in ML direction). Ordinary Least Square (OLS) linear regressions were performed to improve body sway results obtained from the two methods. Improved sway range values obtained from the simple regression method was able to reduce the estimation errors by 50% (~ 10 mm in both AP and ML body sway). The two static body sway estimation methods were found reliable for obtaining body sway. Thus, the inexpensive, portable Kinect V2.0 can be used for clinical measurements.",
+      "authors": [
+        "Anup K. Mishra",
+        "Marjorie Skubic",
+        "Bradley W. Willis",
+        "Trent Guess",
+        "Swithin S. Razu",
+        "Carmen Abbott",
+        "Aaron D. Gray"
+      ],
+      "categories": null,
+      "citations": 3,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1145/3154862.3154874",
+      "keywords": [
+        "body sway",
+        "rehabilitation",
+        "total body center of mass",
+        "Kinect V2.0"
+      ],
+      "number_of_pages": 9,
+      "pages": "127-135",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": "9781450363631",
+        "issn": null,
+        "publisher": "Association for Computing Machinery",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Proceedings of the 11th EAI International Conference on Pervasive Computing Technologies for Healthcare"
+      },
+      "publication_date": "2017-05-23",
+      "selected": null,
+      "title": "Examining methods to estimate static body sway from the Kinect V2.0 skeletal data: implications for clinical rehabilitation",
+      "urls": [
+        "https://dl.acm.org/doi/10.1145/3154862.3154874"
+      ]
+    },
+    {
+      "abstract": "Sit-to-stand (STS) transfers are a common human task which involves complex sensorimotor processes to control the highly nonlinear musculoskeletal system. ",
+      "authors": [
+        "Geravand, Milad",
+        "Korondi, Peter Zeno",
+        "Werner, Christian",
+        "Hauer, Klaus",
+        "Peer, Angelika"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1007/s10514-016-9553-5",
+      "keywords": [
+        "Optimal feedback control",
+        "Inverse optimal control",
+        "Human sit-to-stand transfer",
+        "Assistive and rehabilitation robots",
+        "User evaluation"
+      ],
+      "number_of_pages": 18,
+      "pages": "575-592",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "0929-5593",
+        "publisher": "Kluwer Academic Publishers",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Autonomous Robots"
+      },
+      "publication_date": "2017-03-01",
+      "selected": null,
+      "title": "Human sit-to-stand transfer modeling towards intuitive and biologically-inspired robot assistance",
+      "urls": [
+        "https://dl.acm.org/doi/10.1007/s10514-016-9553-5",
+        "https://link.springer.com/content/pdf/10.1007/s10514-016-9553-5.pdf"
+      ]
+    },
+    {
+      "abstract": "This paper presents a balance control for a powered lower limbs exoskeleton based on the instantaneous capture point concept and human balance strategies. Our goal is to implement it on the exoskeleton EMY-Balance (CEA-LIST). The control is inspired from biomechanic studies and aims at assisting a healthy person while preserving his comfort and his safety to the maximum. We first present briefly how the machine can balance itself according to external perturbations which can come from the user, and how it can imitate human balance strategies. Then, we present how we compute joint torques for the specific actuation of EMY-Balance. We suppose in this study, that the user and the exoskleton share the same control : 1) the proposed control assists stand leg(s) in order to facilitate the balance recovery, 2) the user is supposed to compensate efforts to overcome actuation issues.",
+      "authors": [
+        "Vaiyee Huynh",
+        "Catherine Bidard",
+        "Chistine Chevallereau"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/HUMANOIDS.2016.7803319",
+      "keywords": [],
+      "number_of_pages": 6,
+      "pages": "483-488",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": null,
+        "publisher": "IEEE Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "2016 IEEE-RAS 16th International Conference on Humanoid Robots (Humanoids)"
+      },
+      "publication_date": "2016-11-01",
+      "selected": null,
+      "title": "Balance control for an underactuated leg exoskeleton based on capture point concept and human balance strategies",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/HUMANOIDS.2016.7803319"
+      ]
+    },
+    {
+      "abstract": "The recent increase in technological maturity has empowered robots to assist humans and provide daily services. Voice command usually appears as a popular ",
+      "authors": [
+        "Lo, Sheng-Yen",
+        "Huang, Han-Pang"
+      ],
+      "categories": null,
+      "citations": 3,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1007/s11370-016-0203-8",
+      "keywords": [
+        "Human---robot interaction",
+        "Motor resonance",
+        "Robot imitation",
+        "Virtual impedance control",
+        "Self-collision avoidance",
+        "Sign language"
+      ],
+      "number_of_pages": 13,
+      "pages": "333-345",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1861-2776",
+        "publisher": "Springer-Verlag",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Intelligent Service Robotics"
+      },
+      "publication_date": "2016-10-01",
+      "selected": null,
+      "title": "Realization of sign language motion using a dual-arm/hand humanoid robot",
+      "urls": [
+        "https://dl.acm.org/doi/10.1007/s11370-016-0203-8",
+        "https://link.springer.com/content/pdf/10.1007/s11370-016-0203-8.pdf"
+      ]
+    },
+    {
+      "abstract": "Display Omitted A method for gait parameters extraction and abnormal gait detection from video.It only requires RGB side view gait video sequences to obtain gait parameters.Approximation of skeleton joints extraction.Classification results show that the proposed method has great potential. Human gait is mainly related to the foot and leg movements but, obviously, the entire motor system of the human body is involved. We hypothesise that movement parameters such as dynamic balance, movement harmony of each body element (arms, head, thorax) could enable us to finely characterise gait singularities to pinpoint potential diseases or abnormalities in advance. Since this paper deals with the preliminary problem pertaining to the classification of normal and abnormal gait, our study will revolve around the lower part of the body. Our proposal presents a functional specification of gait in which only observational kinematic aspects are discussed. The resultant specification will confidently be open enough to be applied to a variety of gait analysis problems encountered in areas connected to rehabilitation, sports, childrens motor skills, and so on. To carry out our functional specification, we develop an extraction system through which we analyse image sequences to identify gait features. Our prototype not only readily lets us determine the dynamic parameters (heel strike, toe off, stride length and time) and some skeleton joints but also satisfactorily supplies us with a proper distinction between normal and abnormal gait. We have performed experiments on a dataset of 30 samples.",
+      "authors": [
+        "Mario Nieto-Hidalgo",
+        "Francisco Javier Ferrndez-Pastor",
+        "Rafael J. Valdivieso-Sarabia",
+        "Jernimo Mora-Pascual",
+        "Juan Manuel Garca-Chamizo"
+      ],
+      "categories": null,
+      "citations": 2,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1016/j.jbi.2016.08.003",
+      "keywords": [
+        "Toe off",
+        "Heel strike",
+        "Gait analysis",
+        "Frailty",
+        "Senility",
+        "Pattern recognition",
+        "Computer vision"
+      ],
+      "number_of_pages": 8,
+      "pages": "82-89",
+      "publication": {
+        "category": null,
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1532-0464",
+        "publisher": "Elsevier Science",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "J. of Biomedical Informatics"
+      },
+      "publication_date": "2016-10-01",
+      "selected": null,
+      "title": "A vision based proposal for classification of normal and abnormal gait using RGB camera",
+      "urls": [
+        "https://dl.acm.org/doi/10.1016/j.jbi.2016.08.003"
+      ]
+    },
+    {
+      "abstract": "This work presents the development of iT-Knee, a novel modular knee exoskeleton that makes use of a torque transmission interface to deliver pure assistive torque to the knee articulation, with the objective to act as rehabilitation tool, or a single joint add-on exoskeleton device for power augmentation. The specific kinematics features employed by iT-Knee can accommodate not only the translational of the knee instantaneous center of rotation in the sagittal plane and on its orthogonal direction, but also the knee varus/valgus angle as well as the internal/external rotation tibia movements delivering pure torque only around the flexion/extension movement. This functionality results in superior transparency and comfortability which allow prolonged period of use without generating significant discomfort. The iT-Knee kinematics, its mechanism, implementation, and actuation are introduced. The Self-aligning feature combined with a fast lock/release mounting system on the human leg shortens the setup time required to wear it, increasing its user-friendly perception. iT-Knee uses a torque controlled actuation unit to generate torque around the knee flexion extension enabling the implementation of several interaction control schemes that combine assistive functionality on demand with high back drivability and transparency during unloaded free motions of the human knee. Experimental results are presented and effectively demonstrate the functionality of the iT-Knee device.",
+      "authors": [
+        "Lorenzo Saccares",
+        "Ioannis Sarakoglou",
+        "Nikos G. Tsagarakis"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/IROS.2016.7759140",
+      "keywords": [],
+      "number_of_pages": 7,
+      "pages": "780-786",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": null,
+        "publisher": "IEEE Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+      },
+      "publication_date": "2016-10-01",
+      "selected": null,
+      "title": "iT-Knee: An exoskeleton with ideal torque transmission interface for ergonomic power augmentation",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/IROS.2016.7759140"
+      ]
+    },
+    {
+      "abstract": "This paper presents the design and analysis of a passive body weight (BW)-support lower extremity exoskeleton (LEE) with compliant joints to relieve compressive load in the knee. The biojoint-like mechanical knee decouples human gait into two phases, stance and swing, by a dual snap fit. The knee joint transfers the BW to the ground in the stance phases and is compliant to free the leg in the swing phases. Along with a leg dynamic model and a knee biomechanical model, the unmeasurable knee internal forces are simulated. The concept feasibility and dynamic models of the passive LEE design have been experimentally validated with measured plantar forces. The reduced knee forces confirm the effectiveness of the LEE in supporting human BW during walking and also provide a basis for computing the internal knee forces as a percentage of BW. Energy harvested from the hip spring reveals that the LEE can save human walking energy.",
+      "authors": [
+        "Donghai Wang",
+        "Kok-Meng Lee",
+        "Jingjing Ji"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/TRO.2016.2572692",
+      "keywords": [],
+      "number_of_pages": 10,
+      "pages": "933-942",
+      "publication": {
+        "category": null,
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1552-3098",
+        "publisher": "IEEE Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Trans. Rob."
+      },
+      "publication_date": "2016-08-01",
+      "selected": null,
+      "title": "A Passive Gait-Based Weight-Support Lower Extremity Exoskeleton With Compliant Joints",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/TRO.2016.2572692"
+      ]
+    },
+    {
+      "abstract": "Recently, the declining birth rate and growing proportion of elderly people, an insufficient number of caregivers, have become serious issues in Japan. To address these problems, biped walking robots have been proposed, which have high affinity toward humans. This study presents the development of a balloon walking robot that uses buoyancy to offset the effect of gravity. The author believes we can ensure the safety of robots by analyzing the psychological effects on humans via a balloon walking robot. The proposed robot has flexible legs and a compact and lightweight (total weight of 5.9 g) drive due to the use of shape memory alloys (SMAs). The legs have two degrees of freedom and are controlled by simply switching the ON/OFF current signals to the SMA-based V-type-flexible flat plate actuator. The balloon walking robot stays upright due to a balance between the leg mechanism and helium. In walking experiments, we tested static walking to acquire basic data for the next model. These experiments verified the feasibility of the mechanism.",
+      "authors": [
+        "Mami Nishida"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/AIM.2016.7576743",
+      "keywords": [],
+      "number_of_pages": 6,
+      "pages": "58-63",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": null,
+        "publisher": "IEEE Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "2016 IEEE International Conference on Advanced Intelligent Mechatronics (AIM)"
+      },
+      "publication_date": "2016-07-01",
+      "selected": null,
+      "title": "Development of a biped balloon walking robot with lightweight mechanism and simple ON/OFF controls",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/AIM.2016.7576743"
+      ]
+    },
+    {
+      "abstract": "This paper presents the design of a sensor-guided gait-synchronization mechanism for a weight-support lower-extremity-exoskeleton (LEE), which provides motion to a (osteoarthritis or stroke rehab) passive leg in sync with the healthy (active) leg in the swing phase during walking. The gait synchronization system is integrated with a motorized hip-joint with embedded sensors that measure the angular displacements and velocities of both hip joints, and the inertia properties of the knee joint. Based on the measured joint-angle trajectories, the motorized hip-joint lifts the passive leg in sync with the healthy leg during the swing phase. The sensor-guided gait mechanism and its effectiveness of synchronizing the passive hip with the active leg are experimentally illustrated. Based on joint-angle and plantar-force measurements, the effects of the passive LEE and sensor-guided gait-synchronization on human walking were experimentally investigated. Results comparing with/without the passive LEE and with/without gait synchronization validate the effectiveness of the sensor-guided designs for reducing joint-angle errors due to the weight of the LEE.",
+      "authors": [
+        "Donghai Wang",
+        "Kok-Meng Lee"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/AIM.2016.7576745",
+      "keywords": [],
+      "number_of_pages": 6,
+      "pages": "71-76",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": null,
+        "publisher": "IEEE Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "2016 IEEE International Conference on Advanced Intelligent Mechatronics (AIM)"
+      },
+      "publication_date": "2016-07-01",
+      "selected": null,
+      "title": "Sensor-guided gait synchronization for weight-support lower-extremity-exoskeleton",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/AIM.2016.7576745"
+      ]
+    },
+    {
+      "abstract": "Powered lower limb exoskeletons become more and more common and are used for different applications such as rehabilitation and human strength augmentation. However, many of the existing designs are limited to a very specific task. We present the concept and design of a modular, reconfigurable lower limb exoskeleton that can be adapted with respect to it's kinematics and actuation to a wide range of users and applications. The introduced modular design allows to compose lower limb exoskeletons with up to four degrees of freedom per leg: abduction/adduction of the hip and flexion/extension of the hip, knee, and ankle. Each passive joint can be extended by a module in terms of functionality, e.g. by actuation or spring stabilization. Three different modules are introduced: one actuator for active support and two spring modules that stabilize the joint around an equilibrium position. Using the presented components, three exemplary systems are composed and discussed: An active hip support exoskeleton, a fully articulated lower limb exoskeleton for gait support and a system for treadmill based gait rehabilitation. The three designs show that the concept of a modular exoskeleton is feasible and that it can be an alternative to a specialized system for environments with changing requirements, for example in rehabilitation or research.",
+      "authors": [
+        "Volker Bartenbach",
+        "Marcel Gort",
+        "Robert Riener"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/BIOROB.2016.7523699",
+      "keywords": [],
+      "number_of_pages": 6,
+      "pages": "649-654",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": null,
+        "publisher": "IEEE Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "2016 6th IEEE International Conference on Biomedical Robotics and Biomechatronics (BioRob)"
+      },
+      "publication_date": "2016-06-01",
+      "selected": null,
+      "title": "Concept and design of a modular lower limb exoskeleton",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/BIOROB.2016.7523699"
+      ]
+    },
+    {
+      "abstract": "We present a method for lower-limb exoskeleton control that defines assistance as a desired dynamic response for the human leg. Wearing the exoskeleton can",
+      "authors": [
+        "Aguirre-Ollinger, Gabriel",
+        "Nagarajan, Umashankar",
+        "Goswami, Ambarish"
+      ],
+      "categories": null,
+      "citations": 1,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1007/s10514-015-9490-8",
+      "keywords": [
+        "Exoskeleton",
+        "Assistive robotics",
+        "Admittance control",
+        "Interaction control"
+      ],
+      "number_of_pages": 28,
+      "pages": "701-728",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "0929-5593",
+        "publisher": "Kluwer Academic Publishers",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Autonomous Robots"
+      },
+      "publication_date": "2016-04-01",
+      "selected": null,
+      "title": "An admittance shaping controller for exoskeleton assistance of the lower extremities",
+      "urls": [
+        "https://dl.acm.org/doi/10.1007/s10514-015-9490-8",
+        "https://link.springer.com/content/pdf/10.1007/s10514-015-9490-8.pdf"
+      ]
+    },
+    {
+      "abstract": "This paper describes the design of the lower limb wearable robot. When we design the wearable exoskeleton robot for rehabilitation, the major issue to be considered is the need for the robot and the patient to act mutually. The movement of the robot should be similar to the human's movement because they will move at the same time when the human wears the exoskeleton. Therefore, the robot should have the similar number of joint with the human Based on the concept, we developed the lower limb exoskeleton, KUEX-R. KUEX-R was designed to assist a patient who needs help when the patient walks and stands up. Since the degree of freedom that the human need to walk straight is at least five degree of freedoms (DOFs) per a leg, KUEX-R has ten actuated joints including the hip and the ankle roll joints. The location of the actuators and the length of the links were determined based on the wearer's comfortability.",
+      "authors": [
+        "Ji-Hyun Park",
+        "Jae-Soon Lee",
+        "Ju-Seong Shin",
+        "Baek-Kyu Cho"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/HUMANOIDS.2015.7363575",
+      "keywords": [],
+      "number_of_pages": 6,
+      "pages": "359-364",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": null,
+        "publisher": "IEEE Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "2015 IEEE-RAS 15th International Conference on Humanoid Robots (Humanoids)"
+      },
+      "publication_date": "2015-11-01",
+      "selected": null,
+      "title": "Design of a lower limb exoskeleton including roll actuation to assist walking and standing up",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/HUMANOIDS.2015.7363575"
+      ]
+    },
+    {
+      "abstract": "This paper presents the development of the CYBERLEGs Alpha-Prototype prosthesis, a new transfemoral prosthesis incorporating a new variable stiffness ankle actuator based on the MACCEPA architecture, a passive knee with two locking mechanisms, and an energy transfer mechanism that harvests negative work from the knee and delivers it to the ankle to assist pushoff. The CYBERLEGs Alpha-Prosthesis is part of the CYBERLEGs FP7-ICT project, which combines a prosthesis system to replace a lost limb in parallel with an exoskeleton to assist the sound leg, and sensory array to control both systems. The prosthesis attempts to produce a natural level ground walking gait that approximates the joint torques and kinematics of a non-amputee while maintaining compliant joints, which has the potential to decrease impulsive losses, and ultimately reduce the end user energy consumption. This first prototype consists of a passive knee and an active ankle which are energetically coupled to reduce the total power consumption of the device. Here we present simulations of the actuation system of the ankle and the passive behavior of the knee module with and without the energy transfer effects, the mechanical design of the prosthesis, and empirical results from testing of the physical device with amputee subjects. We designed a new Knee-Ankle Prosthesis with energy transfer from knee to ankle.The ankle is a variable stiffness actuator based on the MACCEPA architecture.The prosthesis attempts to produce a natural level-ground gait.The behavior of the ankle joint and locking mechanisms is investigated.The energy transfer mechanism reduces the peak torque at the ankle joint.",
+      "authors": [
+        "Louis Flynn",
+        "Joost Geeroms",
+        "Rene Jimenez-Fabian",
+        "Bram Vanderborght",
+        "Nicola Vitiello",
+        "Dirk Lefeber"
+      ],
+      "categories": null,
+      "citations": 4,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1016/j.robot.2014.12.013",
+      "keywords": [
+        "Ankle",
+        "Energy efficiency",
+        "Prosthesis",
+        "Transfemoral",
+        "CYBERLEGs",
+        "Energy transfer",
+        "Active",
+        "Knee"
+      ],
+      "number_of_pages": 12,
+      "pages": "4-15",
+      "publication": {
+        "category": null,
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "0921-8890",
+        "publisher": "North-Holland Publishing Co.",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Robot. Auton. Syst."
+      },
+      "publication_date": "2015-11-01",
+      "selected": null,
+      "title": "Ankle-knee prosthesis with active ankle and energy transfer",
+      "urls": [
+        "https://dl.acm.org/doi/10.1016/j.robot.2014.12.013"
+      ]
+    },
+    {
+      "abstract": "Starting from the early research in the 1960s, especially in the last two decades, orthoses and exoskeletons have been significantly developed. They are designed in different architectures to assist their users' movements. The research literature has been more prolific on lower-limb devices: a main reason is that they address a basic but fundamental motion task, walking. Leg exoskeletons are simpler to design, compared to upper-limb counterparts, but still have particular cognitive and physical requirements from the emerging human-robot interaction systems. In the state of the art, different control strategies and approaches can be easily found: it is still a challenge to develop an assistive strategy which makes the exoskeleton supply efficient and natural assistance. So, this paper aims to provide a systematic overview of the assistive strategies utilized by active locomotion-augmentation orthoses and exoskeletons. Based on the literature collected from Web of Science and Scopus, we have studied the main robotic devices with a focus on the way they are controlled to deliver assistance; the relevant validations are as well investigated, in particular experimentations with human in the loop. Finally current trends and major challenges in the development of an assistive strategy are concluded and discussed. We collected lower-limb orthosis/exoskeleton papers from Web of Science and Scopus.We classified the collected papers according to the adopted assistive strategies.We reviewed each orthosis/exoskeleton focusing on their control strategy.We also provided the relevant validations of each assistive strategy.",
+      "authors": [
+        "Tingfang Yan",
+        "Marco Cempini",
+        "Calogero Maria Oddo",
+        "Nicola Vitiello"
+      ],
+      "categories": null,
+      "citations": 23,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1016/j.robot.2014.09.032",
+      "keywords": [
+        "Lower-limb",
+        "Orthoses",
+        "Assistive strategies",
+        "Exoskeletons",
+        "Powered"
+      ],
+      "number_of_pages": 17,
+      "pages": "120-136",
+      "publication": {
+        "category": null,
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "0921-8890",
+        "publisher": "North-Holland Publishing Co.",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Robot. Auton. Syst."
+      },
+      "publication_date": "2015-02-01",
+      "selected": null,
+      "title": "Review of assistive strategies in powered lower-limb orthoses and exoskeletons",
+      "urls": [
+        "https://dl.acm.org/doi/10.1016/j.robot.2014.09.032"
+      ]
+    },
+    {
+      "abstract": "This paper proposes a new design of an 8-degree of freedom (DoF) biped robot with compliant links and its optimum trajectory generation for walking. The shanks of a biped are replaced by compliant links. Compliant links of different thickness are used to find optimum walking trajectory and the work done is compared for different cases. Compliant links are modelled using the pseudo-rigid body model (PRBM), in which a single compliant link is divided into two rigid links connected by a pin joint and a torsional spring at the joint. Gait trajectory is generated for continuous walking by defining the hip and swing foot ankle trajectories with respect to the stance-leg ankle. Different constraint conditions are taken into consideration to ensure continuity and smoothness of the walking trajectory in a straight path. The dynamic equations of motion of the bipeds are derived using the Euler-Lagrangian method and the work done for both rigid and compliant biped are obtained. The genetic algorithm (GA) is used to optimize the trajectory to minimize the work done. For dynamic balance of the biped, the zero-moment point (ZMP) method is used. By varying the thickness of compliant link and other gait parameters, various gait trajectories are simulated and compared based on the work done and balance. Experiments were carried out in which a biped robot with compliant links was made to follow the optimal trajectories and the experimental results are compared with simulation results. New design of an 8-DoF biped robot with compliant links for walking.Compliant links of different thickness are used and corresponding work done is found.Dynamic equation of the biped is derived using the Lagrange-Euler method to find the work done.Genetic algorithm is used to find the optimal gait, with constraints that satisfy ZMP.Both simulation and experiments are performed with the designed compliant biped.",
+      "authors": [
+        "Abhishek Sarkar",
+        "Ashish Dutta"
+      ],
+      "categories": null,
+      "citations": 1,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1016/j.robot.2014.09.014",
+      "keywords": [
+        "Walking gait",
+        "Flexible-link planar biped",
+        "Optimization",
+        "Pseudo-rigid body model"
+      ],
+      "number_of_pages": 11,
+      "pages": "57-67",
+      "publication": {
+        "category": null,
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "0921-8890",
+        "publisher": "North-Holland Publishing Co.",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Robot. Auton. Syst."
+      },
+      "publication_date": "2015-01-01",
+      "selected": null,
+      "title": "8-DoF biped robot with compliant-links",
+      "urls": [
+        "https://dl.acm.org/doi/10.1016/j.robot.2014.09.014"
+      ]
+    },
+    {
+      "abstract": "A patient with hemiplegia after a stroke stands up by using mainly his/her healthy leg rather than his/her paralyzed leg. Therefore, a therapist guides the motion of the patient so that he/she can stand up by using both legs well and in balance. The final goal of our research is to develop a rehabilitation support robot for standingup training of patients with hemiplegia after a stroke, to restore normal standing-up motion. For this purpose, it is necessary to analyze the therapist's guiding motion, and on the basis of the analysis results, to design and construct a rehabilitation support robot for standing-up training. In the work described in this paper, we constructed a measurement system and analyzed a therapist's guiding motion and the guided standing-up motion of a patient. We obtained fundamental data required for designing a rehabilitation support robot.",
+      "authors": [
+        "Yoshifumi Morita",
+        "Jung-Tang Wang",
+        "Lin Han",
+        "Kazunori Yamazaki",
+        "Noritaka Sato",
+        "Hirofumi Tanabe"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.5555/2846738.2846741",
+      "keywords": [
+        "Guiding motion",
+        "Robot-aided rehabilitation training",
+        "Standing-up motion support",
+        "Measurement system",
+        "Hemiplegic patient"
+      ],
+      "number_of_pages": 4,
+      "pages": "1-4",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": null,
+        "publisher": "Singapore Therapeutic, Assistive & Rehabilitative Technologies (START) Centre",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Proceedings of the international Convention on Rehabilitation Engineering & Assistive Technology"
+      },
+      "publication_date": "2014-08-20",
+      "selected": null,
+      "title": "Analysis of therapist's guiding motion for standing-up training of hemiplegic stroke patients",
+      "urls": [
+        "https://dl.acm.org/doi/10.5555/2846738.2846741"
+      ]
+    },
+    {
+      "abstract": null,
+      "authors": [
+        "Carlos Luque-Moreno",
+        "\u00c1ngel Oliva Pascual-Vaca",
+        "Pawel Kiper",
+        "Cleof\u00e1s Rodr\u00edguez-Blanco",
+        "Michela Agostini",
+        "Andrea Turolla"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.4108/icst.pervasivehealth.2014.255336",
+      "keywords": [
+        "stroke",
+        "gait speed",
+        "feedback",
+        "physiotherapy",
+        "virtual reality"
+      ],
+      "number_of_pages": 4,
+      "pages": "418-421",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": "9781631900112",
+        "issn": null,
+        "publisher": "ICST (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering)",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Proceedings of the 8th International Conference on Pervasive Computing Technologies for Healthcare"
+      },
+      "publication_date": "2014-05-20",
+      "selected": null,
+      "title": "Virtual reality to improve lower extremity function, kinematic parameters, and walking speed post-stroke: Preliminary results.",
+      "urls": [
+        "https://dl.acm.org/doi/10.4108/icst.pervasivehealth.2014.255336",
+        "http://eudl.eu/pdf/10.4108/icst.pervasivehealth.2014.255336"
+      ]
+    },
+    {
+      "abstract": "This study aims to understand the principles of gait generation in a quadrupedal model. It is difficult to determine the essence of gait generation simply ",
+      "authors": [
+        "Fukuoka, Yasuhiro",
+        "Habu, Yasushi",
+        "Fukui, Takahiro"
+      ],
+      "categories": null,
+      "citations": 3,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1007/s00422-013-0572-4",
+      "keywords": [
+        "Quadrupedal locomotion",
+        "Central pattern generator",
+        "Vestibular modulation",
+        "Simulation study",
+        "Gait generation"
+      ],
+      "number_of_pages": 16,
+      "pages": "695-710",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "0340-1200",
+        "publisher": "Springer-Verlag",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Biological Cybernetics"
+      },
+      "publication_date": "2013-12-01",
+      "selected": null,
+      "title": "Analysis of the gait generation principle by a simulated quadruped model with a CPG incorporating vestibular modulation",
+      "urls": [
+        "https://dl.acm.org/doi/10.1007/s00422-013-0572-4",
+        "https://link.springer.com/content/pdf/10.1007/s00422-013-0572-4.pdf"
+      ]
+    },
+    {
+      "abstract": "A recovery monitoring system, based on hybrid computational intelligent techniques, is presented for post anterior cruciate ligament (ACL) injured/reconstructed subjects. The case based reasoning methodology has been combined with fuzzy and neuro-fuz",
+      "authors": [
+        "Senanayke, S.M.N. Arosha",
+        "Malik, Owais Ahmed",
+        "Iskandar, Pg. Mohammad",
+        "Zaheer, Dansih"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.3233/HIS-130178",
+      "keywords": [
+        "Recovery Monitoring",
+        "Wireless Sensors",
+        "Case Based Reasoning Cbr",
+        "Knee Injury",
+        "Fuzzy/Neuro-Fuzzy System",
+        "Anterior Cruciate Ligament Acl"
+      ],
+      "number_of_pages": 21,
+      "pages": "215-235",
+      "publication": {
+        "category": "Journal",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1448-5869",
+        "publisher": "IOS Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "International Journal of Hybrid Intelligent Systems"
+      },
+      "publication_date": "2013-10-01",
+      "selected": null,
+      "title": "Anterior cruciate ligament recovery monitoring system using hybrid computational intelligent techniques",
+      "urls": [
+        "https://content.iospress.com:443/download/international-journal-of-hybrid-intelligent-systems/his00178?id=international-journal-of-hybrid-intelligent-systems%2Fhis00178",
+        "https://dl.acm.org/doi/10.3233/HIS-130178"
+      ]
+    },
+    {
+      "abstract": "This article proposes a novel type of series-parallel lower extremity exoskeleton driven by hydraulic actuator. Each leg of the exoskeleton has 6 DOFs, which can walk like human and carry heavy...",
+      "authors": [
+        "Pan, Dalei",
+        "Gao, Feng"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1007/978-3-642-40852-6_71",
+      "keywords": [
+        "inverse dynamic",
+        "numerical simulation",
+        "Lower extremity exoskeleton",
+        "series-parallel mechanism",
+        "level walking"
+      ],
+      "number_of_pages": 12,
+      "pages": "718-729",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": "9783642408519",
+        "issn": null,
+        "publisher": "Springer-Verlag",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Proceedings of the 6th International Conference on Intelligent Robotics and Applications - Volume 8102"
+      },
+      "publication_date": "2013-09-25",
+      "selected": null,
+      "title": "Dynamic Research of a Novel Exoskeleton with Level Walking",
+      "urls": [
+        "https://link.springer.com/content/pdf/10.1007%2F978-3-642-40852-6_71.pdf",
+        "https://dl.acm.org/doi/10.1007/978-3-642-40852-6_71"
+      ]
+    },
+    {
+      "abstract": "With limited motor power, a good balance must be made between high speed and high torque to keep a robot run as fast as possible after meeting the torque demand for each joint. A quadruped robot with...",
+      "authors": [
+        "Yu, Huiyang",
+        "Sun, Ronglei",
+        "Nie, Hua",
+        "Qin, Guohua"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1007/978-3-642-40849-6_22",
+      "keywords": [
+        "screw theory",
+        "optimization",
+        "low moment of inertia",
+        "dynamic locomotion"
+      ],
+      "number_of_pages": 11,
+      "pages": "246-256",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": "9783642408489",
+        "issn": null,
+        "publisher": "Springer-Verlag",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Proceedings of the 6th International Conference on Intelligent Robotics and Applications - Volume 8103"
+      },
+      "publication_date": "2013-09-25",
+      "selected": null,
+      "title": "Design and Control of a Four-Link Mechanism for High Speed and Dynamic Locomotion",
+      "urls": [
+        "https://dl.acm.org/doi/10.1007/978-3-642-40849-6_22",
+        "https://link.springer.com/content/pdf/10.1007%2F978-3-642-40849-6_22.pdf"
+      ]
+    },
+    {
+      "abstract": "An innovative lower extremity exoskeleton, SJTU-EX, is presented in Shanghai JiaoTong University, which mainly aims to help soldiers and workers to support a payload in motions. This paper summarizes...",
+      "authors": [
+        "Miao, Yunjie",
+        "Gao, Feng",
+        "Pan, Dalei"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1007/978-3-642-40849-6_12",
+      "keywords": [
+        "mechanical design",
+        "exoskeleton",
+        "hybrid leg",
+        "diamond mechanism"
+      ],
+      "number_of_pages": 11,
+      "pages": "132-142",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": "9783642408489",
+        "issn": null,
+        "publisher": "Springer-Verlag",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Proceedings of the 6th International Conference on Intelligent Robotics and Applications - Volume 8103"
+      },
+      "publication_date": "2013-09-25",
+      "selected": null,
+      "title": "Mechanical Design of a Lower Extremity Exoskeleton with Hybrid Legs for Power Augmentation",
+      "urls": [
+        "https://link.springer.com/content/pdf/10.1007%2F978-3-642-40849-6_12.pdf",
+        "https://dl.acm.org/doi/10.1007/978-3-642-40849-6_12"
+      ]
+    },
+    {
+      "abstract": "As our robotics community advances its understanding toward the optimal design of robotic exoskeletons for human gait training, the question we ask in this paper is how the anterior lunge degree of freedom in the robotic exoskeleton affects human gait training. Answering this question requires both novel robotic design and novel protocols for human gait training to characterize this effect. To the best of the authors\u2019 knowledge, this is the first study to characterize the effect of an exoskeleton\u2019s degrees of freedom on human gait adaptation. We explored this question using the Active Leg EXoskeleton (ALEX) II. The study presented was performed using ALEX II under the following two configurations: 1) locking the anterior/posterior translation in the exoskeleton, while allowing other degrees-of-freedom (labeled as locked mode) and 2) keeping the anterior/posterior degree of freedom unlocked (labeled as unlocked mode). Healthy subjects walked at self-selected speeds on a treadmill and were trained to walk with a new gait template, scaled down from their normal template. While both groups showed adaptation and retention over a 26-min period following training, the unlocked group showed better performance in terms of adaptation and retention compared with the locked group.",
+      "authors": [
+        "Paul Stegall",
+        "Kyle Winfree",
+        "Damiano Zanotto",
+        "Sunil Kumar Agrawal"
+      ],
+      "categories": null,
+      "citations": 3,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/TRO.2013.2256309",
+      "keywords": [],
+      "number_of_pages": 9,
+      "pages": "838-846",
+      "publication": {
+        "category": null,
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": null,
+        "issn": "1552-3098",
+        "publisher": "IEEE Press",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Trans. Rob."
+      },
+      "publication_date": "2013-08-01",
+      "selected": null,
+      "title": "Rehabilitation Exoskeleton Design: Exploring the Effect of the Anterior Lunge Degree of Freedom",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/TRO.2013.2256309"
+      ]
+    },
+    {
+      "abstract": "Fall is the second leading cause of injures for older adults in Taiwan. If fall risk can be prevented or decreased, fall and its complications could be reduced effectively. The purpose of this study...",
+      "authors": [
+        "Liau, Ben-Yi",
+        "Lung, Chi-Wen",
+        "Jan, Yih-Kuen"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1007/978-3-642-39173-6_39",
+      "keywords": [
+        "balance",
+        "fall risk",
+        "force platform"
+      ],
+      "number_of_pages": 6,
+      "pages": "332-337",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": "9783642391729",
+        "issn": null,
+        "publisher": "Springer-Verlag",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Proceedings of the 4th International conference on Digital Human Modeling and Applications in Health, Safety, Ergonomics, and Risk Management: healthcare and safety of the environment and transport - Volume Part I"
+      },
+      "publication_date": "2013-07-21",
+      "selected": null,
+      "title": "Development of Human Balance Assessment System with Continuous Center of Gravity Tracking",
+      "urls": [
+        "https://dl.acm.org/doi/10.1007/978-3-642-39173-6_39",
+        "https://link.springer.com/content/pdf/10.1007%2F978-3-642-39173-6_39.pdf"
+      ]
+    },
+    {
+      "abstract": "Those who work in risky areas need to have proper training which may allow them to know how to behave in case of need. The training needs to mimic risk scenarios, where the individuals may exercise proper procedures. It is also necessary that such individuals get to know the surrounding of their specific work place, so that they can be able to use proper escape routes, even under stress. Virtual Reality, and the related Virtual Environments, have been shown to be quite effective in training applications. Good examples range from Flight Simulators to more recent efforts in various training scenarios. This work introduces a low-cost offshore oil platform training simulation, which allows a user to exploit the synthetic environment through free walking in the environment. The system uses a Nintendo Wii Fit Plus Balance Board to allow a user to walk in the system using natural leg movements. The 3D models of the offshore oil platform are presented in a low-cost CAVE setup in a Collaborative Virtual Environments, which includes avatars that represent other users of the system, both bots and those representing other real users.",
+      "authors": [
+        "Carina da_Cruz Teixeira",
+        "Marlan Kulberg",
+        "Jauvane Cavalcante de Oliveira"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/SVR.2013.30",
+      "keywords": [
+        "Wii Balance Board",
+        "Virtual Environments",
+        "Stereoscopy",
+        "Simulation"
+      ],
+      "number_of_pages": 4,
+      "pages": "212-215",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": "9780769550015",
+        "issn": null,
+        "publisher": "IEEE Computer Society",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Proceedings of the 2013 XV Symposium on Virtual and Augmented Reality"
+      },
+      "publication_date": "2013-05-28",
+      "selected": null,
+      "title": "Virtual Walking in a Synthetic World through an Low-Cost Interaction Device",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/SVR.2013.30"
+      ]
+    },
+    {
+      "abstract": "Bionic knee was important basic driving element for biped robot. with the adult male's right leg knee working as bionic prototype, the three-dimensional finite element model was established, and the cinnections balance equation was established with the help of nonlinear contact theory, then system penalty function was used to deal with the contact constraint by considering the minimum potential energy under the restriction of weight load conditions. Further, the biomechanical response and shock buffering function of sagittal knee with cartilage was analysed, and the constraint stress mechanism of articular cartilage between the sagittal knee with and without cartilage was compared. the comparative analysis would offer biomechanics basis for bionic joint drive's optimal design.",
+      "authors": [
+        "Xuefeng Zhang",
+        "Xiansheng Qin",
+        "Zhanfeng Yang",
+        "Jing Li",
+        "Zhanxi Wang"
+      ],
+      "categories": null,
+      "citations": 0,
+      "comments": null,
+      "databases": [
+        "ACM"
+      ],
+      "doi": "10.1109/ISCID.2012.47",
+      "keywords": [
+        "biomechanics",
+        "bionic joint",
+        "cartilage",
+        "contact response"
+      ],
+      "number_of_pages": 4,
+      "pages": "156-159",
+      "publication": {
+        "category": "Conference Proceedings",
+        "cite_score": null,
+        "is_potentially_predatory": false,
+        "isbn": "9780769548111",
+        "issn": null,
+        "publisher": "IEEE Computer Society",
+        "sjr": null,
+        "snip": null,
+        "subject_areas": [],
+        "title": "Proceedings of the 2012 Fifth International Symposium on Computational Intelligence and Design - Volume 01"
+      },
+      "publication_date": "2012-10-28",
+      "selected": null,
+      "title": "Contact Biomechanical Responce of Bionic Joint for Biped Robot",
+      "urls": [
+        "https://dl.acm.org/doi/10.1109/ISCID.2012.47"
+      ]
+    }
+  ],
+  "processed_at": "2021-12-22 13:25:32",
+  "publication_types": [
+    "journal",
+    "conference proceedings"
+  ],
+  "query": "([exoskeleton] OR [prothesis] OR [Human in the loop optimization] OR [Balance] OR [ML]) AND ([leg])",
+  "since": "2010-01-01",
+  "until": null
+}

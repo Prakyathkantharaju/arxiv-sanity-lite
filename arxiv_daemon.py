@@ -52,7 +52,9 @@ if __name__ == '__main__':
             try:
                 resp = get_response(search_query=q, start_index=k)
                 papers = parse_response(resp)
+                print(len(papers), papers[0].keys(), type(papers[0]))
                 time.sleep(0.5)
+                # sys.exit()
                 if len(papers) == 100:
                     break # otherwise we have to try again
             except Exception as e:
@@ -104,4 +106,4 @@ if __name__ == '__main__':
         time.sleep(1 + random.uniform(0, 3))
 
     # exit with OK status if anything at all changed, but if nothing happened then raise 1
-    sys.exit(0 if total_updated > 0 else 1)
+    # sys.exit(0 if total_updated > 0 else 1)

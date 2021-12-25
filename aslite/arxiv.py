@@ -2,7 +2,7 @@
 Utils for dealing with arxiv API and related processing
 """
 
-import time
+import time, sys
 import logging
 import urllib.request
 import feedparser
@@ -44,8 +44,11 @@ def parse_arxiv_url(url):
     assert ix >= 0, 'bad url: ' + url
     idv = url[ix+1:] # extract just the id (and the version)
     parts = idv.split('v')
-    assert len(parts) == 2, 'error splitting id and version in idv string: ' + idv
-    return idv, parts[0], int(parts[1])
+    # assert len(parts) == 2, 'error splitting id and version in idv string: ' + idv
+    if len(parts) == 2:
+        return idv, parts[0], int(parts[1])
+    else:
+        return idv, parts[0], 1
 
 def parse_response(response):
 
@@ -60,9 +63,18 @@ def parse_response(response):
         j['_version'] = version
         j['_time'] = time.mktime(j['updated_parsed'])
         j['_time_str'] = time.strftime('%b %d %Y', j['updated_parsed'])
+        print(j.keys())
+        # print(j.items())
         # delete apparently spurious and redundant information
         del j['summary_detail']
         del j['title_detail']
+        for items, keys in j.items():
+            print(items, keys)
+            print('\n')
+        print(j['tags'])
+        print(j['arxiv_primary_category'])
+
+        sys.exit()
         out.append(j)
 
     return out

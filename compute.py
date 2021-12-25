@@ -36,8 +36,11 @@ if __name__ == '__main__':
         assert isinstance(training, bool)
 
         # determine which papers we will use to build tfidf
+        print('ere' * 20)
+        print(args.max_docs > 0 and args.max_docs < len(pdb))
         if training and args.max_docs > 0 and args.max_docs < len(pdb):
             # crop to a random subset of papers
+            print('here' * 20)
             keys = list(pdb.keys())
             shuffle(keys)
             keys = keys[:args.max_docs]
@@ -46,9 +49,18 @@ if __name__ == '__main__':
 
         # yield the abstracts of the papers
         for p in keys:
+            if p is None:
+                continue
+            print(p)
             d = pdb[p]
-            author_str = ' '.join([a['name'] for a in d['authors']])
-            yield ' '.join([d['title'], d['summary'], author_str])
+            try:
+                author_str = ' '.join([a['name'] for a in d['authors']])
+                out  = ' '.join([d['title'], d['summary'], author_str])
+            except:
+                out = d['abstract']
+            if out is None:
+                continue
+            yield out
 
     print("training tfidf vectors...")
     v.fit(make_corpus(training=True))

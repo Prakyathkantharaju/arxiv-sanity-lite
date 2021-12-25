@@ -88,15 +88,18 @@ def render_pid(pid):
     pdb = get_papers()
     tags = get_tags()
     d = pdb[pid]
+    authors = d['authors']
+    print(d['urls'])
     return dict(
         weight = 0.0,
         id = d['_id'],
         title = d['title'],
         time = d['_time_str'],
-        authors = ', '.join(a['name'] for a in d['authors']),
+        authors = authors,
         tags = ', '.join(t['term'] for t in d['tags']),
         utags = [t for t, pids in tags.items() if pid in pids],
         summary = d['summary'],
+        url = d['urls'],
     )
 
 def random_rank():
